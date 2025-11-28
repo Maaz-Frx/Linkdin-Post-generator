@@ -1,44 +1,45 @@
-# LinkedIn Post Generator
+# Postin.ai – LinkedIn Post Generator
 
-An AI-powered tool that creates professional, engaging LinkedIn posts based on user input.  
-Built using **Streamlit**, **Groq LLMs**, and **LangChain**, this project helps users quickly generate high-quality LinkedIn content for branding, announcements, achievements, job updates, and more.
+An AI-powered web app that helps users generate clean, polished, and engaging LinkedIn posts in seconds.  
+Built using **Streamlit**, **Groq LLMs**, and a custom **few-shot prompt pipeline**, this tool makes content creation fast, effortless, and consistent.
+
+🔗 **Live App:**  
+👉 https://maaz-linkedin-generator.streamlit.app/
 
 ---
 
 ## 🚀 Features
 
-- **AI-Generated LinkedIn Posts**  
-  Automatically create polished and professional posts with a single click.
+### ✔ AI-Generated LinkedIn Posts
+Create professional-level posts with a single click.
 
-- **Custom Writing Style**  
-  Generates posts based on your tone, audience, and topic.
+### ✔ Multiple Tones & Categories
+Choose topics and writing styles like professional, motivational, educational, etc.
 
-- **Groq API Integration**  
-  Uses Groq’s ultrafast LLM inference for near real-time text generation.
+### ✔ Adjustable Lengths
+Select from **Short, Medium, or Long** post styles.
 
-- **Clean Streamlit UI**  
-  Simple, fast, and responsive interface.
+### ✔ Multi-Language Support
+Generate posts in English, Hindi, or any supported language.
 
-- **Preprocessing Pipeline**  
-  Cleans and structures user inputs for more accurate generation.
+### ✔ Groq API Integration
+Uses **Groq’s ultra-fast LLM** for instant and high-quality text generation.
 
----
+### ✔ Clean Streamlit UI
+Simple, fast, responsive UI with a minimal design.
 
-## 🧠 Tech Stack
-
-| Component | Technology |
-|----------|------------|
-| Frontend | Streamlit |
-| Backend | Python |
-| LLM | Groq API + LangChain |
-| Helper Libraries | python-dotenv, requests, tiktoken, etc. |
+### ✔ Preprocessing Pipeline
+Input text is cleaned and structured before being passed to the model.
 
 ---
 
-## 🔧 Installation
+## 🛠️ Tech Stack
 
-Clone the repository:
+- Python  
+- Streamlit  
+- Groq API (LLM inference)  
+- Pandas + JSON dataset  
+- LangChain Pipeline  
+- Custom Few-Shot Prompting  
 
-```bash
-git clone https://github.com/<your-username>/LinkedIn-Post-generator
-cd LinkedIn-Post-generator
+
